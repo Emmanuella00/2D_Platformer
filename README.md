@@ -1,7 +1,7 @@
 # Unity 2D Platformer
 
 ## Overview
-This project extends a starter 2D platformer built in Unity 6.5 (URP). The goal was to fix incomplete gameplay mechanics, resolve bugs, and add new features while keeping edits to the original scripts minimal. The final version includes a working Start menu, responsive HUD, a lives-and-respawn system managed by a custom `GameManager`, and an End scene with Replay and Quit options.
+This project extends a starter 2D platformer built in Unity 6.5 (URP). The goal was to fix incomplete gameplay mechanics, resolve bugs, and add new features while keeping edits to the original scripts minimal. The final version includes a working Start menu, responsive HUD, a lives-and-respawn system managed by a `GameManager`, and an End scene with Replay option.
 
 ## Features
 - **HUD & UI**
@@ -10,9 +10,9 @@ This project extends a starter 2D platformer built in Unity 6.5 (URP). The goal 
   - Canvas Scaler set to *Scale With Screen Size* (1920×1080, match = 0.5)
 - **Start Scene**
   - Background, Play, Settings, Quit buttons
-  - Settings panel with volume slider, mute toggle, and controls reference
+  - Settings panel with slider and controls reference
 - **End Scene**
-  - GAME OVER title, Replay and Quit buttons
+  - GAME OVER title, Replay button
 - **Gameplay Fixes**
   - Camera follows player (`public Transform target;` kept as original)
   - Player movement: grounded check, horizontal axis input, spacebar jump
